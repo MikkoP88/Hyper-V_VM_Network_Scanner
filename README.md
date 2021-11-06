@@ -1,18 +1,18 @@
 # Hyper-V VM Network Scanner
-This tool provide easy and fast way to scan all virtual machines and their network interface settings on Hyper-V clusters.
+This tool provides easy and fast way to scan all virtual machines and their network interface settings on Hyper-V clusters.
 ### Note
 - Tool can scan only Hyper-V Cluster environment.
-- Tool can be used on remote machine and also not need to be domain joined.
+- Tool can be used on remote machine and also doesn't need to be domain joined.
 - Tool is tested only with DNS names.
 - Tool can scan all cluster nodes or single node.
 
 ## Usage
 ### Check before running
 - Administrator privileges and Administrator credential. 
-- Cluster node/nodes DNS names, this not needed if tool is startet on node what is member of cluster and you select scan all.
+- Cluster node/nodes DNS names, this is not needed if tool is started on node what is member of cluster and you select scan all.
 
 ### Start scanning
-When running scanner on non cluster member machine, you need do provide individually every cluster nodes DNS name. But if machine where tool is launched is member of cluster, tool provide shortcut for scan all nodes of cluster. 
+When running scanner on non cluster member machine, you need to do provide individually every cluster nodes DNS name. But if machine where tool is launched is member of cluster, tool provide shortcut for scan all nodes of cluster. 
 
 Download Hyper-V_VM_Network_Scanner_1.0.ps1 file and run that with powershell.
 ```
